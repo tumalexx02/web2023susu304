@@ -1,7 +1,18 @@
-# КЭ-304 3 курс Программная инженерия
+# js-oop-tasks
+Репозиторий с ДЗ по JS ООП (ES6+)
 
-Первое задание [Практика по git](https://github.com/tumalexx02/web2023susu304/tree/main/gitPractice). (Выполнены все уровни)<br>
-Второе задание [Практика по CSS](https://github.com/tumalexx02/web2023susu304/tree/main/cssPractice).<br>
-Третье задание [Практика по JS](https://github.com/tumalexx02/web2023susu304/tree/main/jsPractice).<br>
-Четвёртое задание [Вёрстка](https://github.com/tumalexx02/web2023susu304/tree/main/tinkoff-landing).<br>
-Пяток задание [ООП в JS](https://github.com/tumalexx02/web2023susu304/tree/main/jsOOPPractice).<br>
+## Как пользоваться
+
+Для того чтобы всё корректно работало, у вас должен быть установлен [node](https://nodejs.org/en/) и [git](https://git-scm.com/)
+
+-   Скачайте проект к себе. Есть 3 способа:
+    -   Скачайте проект как архив
+    -   Клонируйте текущий репозиторий и пересоздайте git репозиторий 
+        - Можно удалить папку .git/, а затем `git init`
+        - Либо же указываем новый remote на свой репозиторий
+    -   Сделайте fork репозитория и клонируйте его к себе
+-   Перед тем, как начать делать домашние задания, выполните `npm install`
+-   Задания находятся в `src/*.js`
+-   Чтобы проверить решения заданий с тестами, используйте `npm test`
+
+
