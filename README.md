@@ -1,7 +1,13 @@
-# КЭ-304 3 курс Программная инженерия
+# Core Javascript
 
-Первое задание [Практика по git](https://github.com/tumalexx02/web2023susu304/tree/main/gitPractice). (Выполнены все уровни)<br>
-Второе задание [Практика по CSS](https://github.com/tumalexx02/web2023susu304/tree/main/cssPractice).<br>
-Третье задание [Практика по JS](https://github.com/tumalexx02/web2023susu304/tree/main/jsPractice).<br>
-Четвёртое задание [Вёрстка](https://github.com/tumalexx02/web2023susu304/tree/main/tinkoff-landing).<br>
-Пяток задание [ООП в JS](https://github.com/tumalexx02/web2023susu304/tree/main/jsOOPPractice).<br>
+## Как пользоваться
+
+Для того, чтобы всё корректно работало, у вас должен быть установлен [node](https://nodejs.org/en/) и [git](https://git-scm.com/)
+
+-   Скачайте проект к себе. Есть 3 способа:
+    -   Сачайте проект как архив
+    -   Склонируйте текущий репозиторий и пересоздайте гит репозиторий (либо же указываем новый remote на свой репозиторий)
+    -   Сделайте fork репозитория и склонируйте его к себе
+-   Перед тем, как начать делать домашние задания, выполните `npm install`
+-   Задания находятся в `src/core.js`
+-   Чтобы проверить решения заданий с тестами, используйте `npm test`
