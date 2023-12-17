@@ -915,3 +915,23 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+body.light {
+  background-color: white;
+}
+
+body.dark {
+  background-color: rgb(17 24 39);
+}
+
+.card.dark {
+  background-color: rgb(17 24 39);
+  color: rgb(229 231 235);
+  border-color: rgb(229 231 235);
+}
+
+.card.light {
+  background-color: rgb(229 231 235);
+  color: rgb(17 24 39);
+  border-color: rgb(17 24 39);
+}
