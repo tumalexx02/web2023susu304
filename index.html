@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <script src="https://kit.fontawesome.com/9777710dda.js" crossorigin="anonymous"></script>
+  <title>Список действий</title>
+</head>
+<body class="bg-gray-900 text-gray-200">
+  <header class="text-center sticky top-0 py-4 text-xl font-semibold bg-gray-700 select-none shadow-lg">
+    POSTS LIST
+  </header>
+
+  <img src="/assets/loader.gif" alt="Loading" class="mx-auto mt-8 w-16 h-16" id="loader">
+
+  <div class="container mx-auto mt-12 pb-20 grid grid-cols-1 gap-8 md:grid-cols-2 justify-center" id="posts-list">
+  </div>
+
+  <button class="fixed select-none bottom-5 right-5 bg-emerald-500 text-white font-semibold p-4 rounded-xl shadow-lg active:scale-[0.98] active:bg-emerald-800 transitions-all" id="create-post">
+    <i class="fa-solid fa-plus mr-2"></i>Create Post
+  </button>
+
+  <div class="w-full h-full fixed top-0 left-0 bg-[rgba(0,0,0,0.4)] backdrop-blur-sm hidden" id="modal">
+    <form action="" class="mt-16 p-8 bg-black mx-auto w-[95%] md:w-[70%] rounded-md flex flex-col gap-2">
+      <button class="flex justify-end" id="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <label for="post-title" class="text-xl">Title</label>
+      <input type="text" class="rounded-md text-black px-2 py-1" id="post-title">
+      <label for="post-body" class="text-xl">Body</label>
+      <input type="text" class="rounded-md text-black px-2 py-1" id="post-body">
+      <label for="post-user" class="text-xl">User</label>
+      <select name="user" id="post-user" class="rounded-md text-black px-2 py-2 w-1/2"></select>
+      <button type="submit" class="w-1/5 py-2 bg-emerald-500 mt-4 rounded-md">Submit</button>
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
